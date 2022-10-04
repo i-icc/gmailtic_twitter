@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "gmailtic twitter",
+    "version": "0.1.0",
+    "author": "i-icc",
+    "description": "Twitter を gmail 風に表示します。",
+    
+    "icons": {
+        "16": "img/icon.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "css": [
+                "css/index.css"
+            ],
+            "js": [
+                "js/index.js"
+            ]
+        }
+    ]
+}
