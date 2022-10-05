@@ -6,7 +6,7 @@
     "description": "Twitter を gmail 風に表示します。",
     
     "icons": {
-        "16": "img/icon.png"
+        "16": "images/icon.png"
     },
 
     "content_scripts": [
@@ -15,7 +15,9 @@
                 "https://twitter.com/*"
             ],
             "css": [
-                "css/index.css"
+                "css/index.css",
+                "css/side_bar.css",
+                "css/gmail.css"
             ],
             "js": [
                 "js/index.js"

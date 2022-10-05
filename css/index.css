@@ -1,3 +1,5 @@
-body {
-    font-size: large;
+/* twitter臭がするのでハッシュタグは色なしにしてしまいましょう */
+b, s {
+    font-weight: bold !important;
+    color: #000 !important;
 }

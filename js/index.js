@@ -1,1 +1,1 @@
-alert("読み込みOK")
+document.head.insertAdjacentHTML('beforeend', '<style>.u-size1of3 { width: initial !important; }</style>');
